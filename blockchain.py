@@ -3,7 +3,7 @@ import datetime
 import sys
 sys.stdout = open("output.txt", "w")
 
-num_blocks_to_add = 1000000
+num_blocks_to_add = 100000
 
 block_chain = [Block.create_NPB_block()]
 
